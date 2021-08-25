@@ -19,7 +19,7 @@ namespace EShopMVC.Controllers
         }
         public ViewResult List()
         {
-            return View(_pieRepository.AllPies);
+            return View("Banan", _pieRepository.AllPies);
         }
     }
 }
